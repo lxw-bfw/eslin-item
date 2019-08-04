@@ -1,0 +1,25 @@
+{
+  "name": "eslint-auto",
+  "version": "1.0.0",
+  "description": "本地安装eslint，进行相关配置，同时配置vscode,安装相关vscode插件eslint、vetur，修改vscode的setting实现自动根据eslint规则检测我们的代码,保存代码之后自动按照我们配置的规则格式化我们的代码.注意这过程会失败。查看输出控制台报错信息",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxw"
+  },
+  "keywords": [
+    "eslint",
+    "eslint自动化"
+  ],
+  "author": "lxw",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-html": "^6.0.0"
+  }
+}
